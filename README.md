@@ -1,7 +1,5 @@
 # telecom-churn-prediction
 AI-powered telecom churn prediction using ML
-# telecom-churn-prediction
-AI-powered telecom churn prediction using ML
 # 📊 Telecom Churn Prediction (AI Project)
 
 ## 🚀 Project Overview
