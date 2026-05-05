@@ -1,6 +1,7 @@
 # telecom-churn-prediction
 AI-powered telecom churn prediction using ML
-#PREDICT OR USE MY PROJECT LIVE HERE IS LINK :[ https://telecom-churn-prediction-2-wxdh.onrender.com](https://telecom-churn-prediction-2-wxdh.onrender.com/)
+#PREDICT OR USE MY PROJECT LIVE HERE IS LINK :
+[[ https://telecom-churn-prediction-2-wxdh.onrender.com](https://telecom-churn-prediction-2-wxdh.onrender.com/)](https://telecom-churn-prediction-2-wxdh.onrender.com/)
 # 📊 Telecom Churn Prediction (AI Project)
 
 ## 🚀 Project Overview
