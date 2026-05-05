@@ -1,0 +1,297 @@
+2026-05-06 01:43:38,713 - INFO - ---------------------------------^cunstructor part^------------------------------------------
+2026-05-06 01:43:38,742 - INFO - TOTAL DATA SIZE: (7043, 21)
+2026-05-06 01:43:38,752 - INFO - TOTAL INFORMATION ABOUT DATA: None
+2026-05-06 01:43:38,765 - INFO - TOTAL NULL VALUES: 
+ :customerID           0
+gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        11
+Churn                0
+dtype: int64
+2026-05-06 01:43:38,768 - INFO - Successfully created Telecom Brands column
+2026-05-06 01:43:38,768 - INFO - After created new column now the Total data size: (7043, 22)
+2026-05-06 01:43:38,769 - INFO - Successfully droped customer ID column
+2026-05-06 01:43:38,776 - INFO - Successfully changed yes:1 & no:0 in y_test&y_train
+2026-05-06 01:43:38,776 - INFO - ---------------------------------^cunstructor part^------------------------------------------
+2026-05-06 01:43:38,776 - INFO - ---------------------------------^missing values part^---------------------------------------
+2026-05-06 01:43:38,781 - INFO - Before handling missing values in x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'Telecom Brands'],
+      dtype='str'):
+:(5634, 20):
+:gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        10
+Telecom Brands       0
+dtype: int64
+2026-05-06 01:43:38,784 - INFO - Before handling missing values in x_test:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'Telecom Brands'],
+      dtype='str'):
+:(1409, 20):
+:gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        1
+Telecom Brands      0
+dtype: int64
+2026-05-06 01:43:38,809 - INFO - After handling missing values in x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'Telecom Brands', 'TotalCharges_mode'],
+      dtype='str'):
+:(5634, 20):
+:gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Telecom Brands       0
+TotalCharges_mode    0
+dtype: int64
+2026-05-06 01:43:38,809 - INFO - After handling missing values in x_test:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'Telecom Brands', 'TotalCharges_mode'],
+      dtype='str'):
+:(1409, 20):
+:gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Telecom Brands       0
+TotalCharges_mode    0
+dtype: int64
+2026-05-06 01:43:38,809 - INFO - ---------------------------------^missing values part^----------------------------------------
+2026-05-06 01:43:38,809 - INFO - -----------------------------------data separation part----------------------------------------------
+2026-05-06 01:43:38,809 - INFO - x_train_num_cols names: Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str'): and size: (5634, 4)
+2026-05-06 01:43:38,809 - INFO - x_test_num_cols names: Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str'): and size: (1409, 4)
+2026-05-06 01:43:38,809 - INFO - x_train_cat_cols names: Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'Telecom Brands'],
+      dtype='str'): and size: (5634, 16)
+2026-05-06 01:43:38,809 - INFO - x_test_cat_cols names: Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'Telecom Brands'],
+      dtype='str'): and size: (1409, 16)
+2026-05-06 01:43:38,809 - INFO - -------------------------------^data separation part^----------------------------------------
+2026-05-06 01:43:38,809 - INFO - -----------------------------variable transformation part------------------------------------
+2026-05-06 01:43:38,809 - INFO - Before x_train columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,809 - INFO - Before x_test columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_train columns names : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_test columns names : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - -----------------------------variable transformation part------------------------------------
+2026-05-06 01:43:38,839 - INFO - --------------------------------feature selection part---------------------------------------
+2026-05-06 01:43:38,839 - INFO - x_train_num columns: (5634, 4):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - x_test_num columns: (1409, 4):
+:Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After HYPOTHESIS TESTING train columns : (5634, 3):
+:Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After HYPOTHESIS TESTING test columns : (1409, 3):
+:Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - --------------------------------feature selection part---------------------------------------
+2026-05-06 01:43:38,839 - INFO - --------------------------------cat to num part-----------------------------------------------
+2026-05-06 01:43:38,884 - INFO - --------------------------------combaining data part-----------------------------------------------
+2026-05-06 01:43:38,884 - INFO - final training data : (5634, 31):
+:Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'gender_Male',
+       'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Telecom Brands_BSNL', 'Telecom Brands_IDEA', 'Telecom Brands_JIO',
+       'Contract_od'],
+      dtype='str')
+2026-05-06 01:43:38,892 - INFO - training data null values : tenure                                   0
+MonthlyCharges                           0
+TotalCharges_mode                        0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Telecom Brands_BSNL                      0
+Telecom Brands_IDEA                      0
+Telecom Brands_JIO                       0
+Contract_od                              0
+dtype: int64
+2026-05-06 01:43:38,892 - INFO - final testing data : (1409, 31):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'gender_Male',
+       'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Telecom Brands_BSNL', 'Telecom Brands_IDEA', 'Telecom Brands_JIO',
+       'Contract_od'],
+      dtype='str')
+2026-05-06 01:43:38,892 - INFO - testing data null values : tenure                                   0
+MonthlyCharges                           0
+TotalCharges_mode                        0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Telecom Brands_BSNL                      0
+Telecom Brands_IDEA                      0
+Telecom Brands_JIO                       0
+Contract_od                              0
+dtype: int64
+2026-05-06 01:43:38,892 - INFO - --------------------------------combaining data part-----------------------------------------------
+2026-05-06 01:43:38,892 - INFO - --------------------------------cat to num part-----------------------------------------------
+2026-05-06 01:43:38,892 - INFO - --------------------------------data balancing part-----------------------------------------------
+2026-05-06 01:43:38,892 - INFO - no.of row for good customer y_train:1:1496
+2026-05-06 01:43:38,892 - INFO - no.of row for bad customer y_train:0:4138
+2026-05-06 01:43:38,892 - INFO - Training data size : (5634, 31)
+2026-05-06 01:43:41,486 - INFO - Number of Rows for GOOD customer y_train 1 : 4138
+2026-05-06 01:43:41,488 - INFO - Number of Rows for BAD customer y_train 0 : 4138
+2026-05-06 01:43:41,488 - INFO - Training_data_bal ds: (8276, 31)
+2026-05-06 01:43:43,875 - INFO - Traning data bal columns: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'gender_Male',
+       'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Telecom Brands_BSNL', 'Telecom Brands_IDEA', 'Telecom Brands_JIO',
+       'Contract_od'],
+      dtype='str')

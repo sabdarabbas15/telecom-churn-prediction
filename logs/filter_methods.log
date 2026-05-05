@@ -1,0 +1,15 @@
+2026-05-06 01:43:38,839 - INFO - Before x_train_num columns: (5634, 4):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - Before x_test_num columns: (1409, 4):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - good columns: 3 : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - bad columns: 1 : Index(['SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_train_num columns: (5634, 3):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_test_num columns: (1409, 3):
+: Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - --------------------------------hypothesis testing part------------------------------------------
+2026-05-06 01:43:38,839 - INFO - After HYPOTHESIS TESTING train columns : (5634, 3) 
+ :  Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After HYPOTHESIS TESTING test columns : (1409, 3) 
+ : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')

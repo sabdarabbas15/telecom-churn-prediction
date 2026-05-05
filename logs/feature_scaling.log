@@ -1,0 +1,20 @@
+2026-05-06 01:43:41,488 - INFO - Training data independent size : (8276, 31)
+2026-05-06 01:43:41,488 - INFO - Training data dependent size : (8276,)
+2026-05-06 01:43:41,488 - INFO - testing data independent size : (1409, 31)
+2026-05-06 01:43:41,488 - INFO - testing data dependent size : (1409,)
+2026-05-06 01:43:41,511 - INFO - before    tenure  MonthlyCharges  TotalCharges_mode  gender_Male  Partner_Yes  ...  PaymentMethod_Mailed check  Telecom Brands_BSNL  Telecom Brands_IDEA  Telecom Brands_JIO  Contract_od
+0      21           64.85             1336.8          0.0          0.0  ...                         1.0                  0.0                  0.0                 0.0          1.0
+
+[1 rows x 31 columns]
+2026-05-06 01:43:43,855 - INFO - test accuracy: 0.7892122072391767
+2026-05-06 01:43:43,858 - INFO - test confusion matrix: [[904 132]
+ [165 208]]
+2026-05-06 01:43:43,870 - INFO - classificatio report:               precision    recall  f1-score   support
+
+           0       0.85      0.87      0.86      1036
+           1       0.61      0.56      0.58       373
+
+    accuracy                           0.79      1409
+   macro avg       0.73      0.72      0.72      1409
+weighted avg       0.78      0.79      0.79      1409
+

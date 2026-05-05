@@ -1,0 +1,4 @@
+2026-05-06 01:43:38,809 - INFO - Before x_Train columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,809 - INFO - Before x_test columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_Train columns names : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
+2026-05-06 01:43:38,839 - INFO - After x_test columns names : Index(['tenure', 'MonthlyCharges', 'TotalCharges_mode', 'SeniorCitizen_trim'], dtype='str')
